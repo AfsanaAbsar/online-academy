@@ -1,0 +1,34 @@
+.menubar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 50px 200px;
+
+}
+
+.menu-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-items a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 10px;
+    color: #385A64;
+
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #385A64;
+}
+
+.reg-btn {
+    background-color: #FEE390;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
