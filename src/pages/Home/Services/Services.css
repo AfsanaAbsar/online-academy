@@ -1,0 +1,30 @@
+.service-title h1 {
+    color: #385A64;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.service-title p {
+    color: #385A64;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.services-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+
+
+}
