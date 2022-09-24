@@ -1,19 +1,25 @@
 .service {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 1px 2px 10px 1px #dae0e1;
 }
 
-.service h3 {
+.service p {
     text-transform: uppercase;
-
+    margin-left: 20px;
+    padding-left: 20px;
     color: #ef9d38;
+    /* color: #385A64; */
     letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .service-img {
-    width: 150px;
+    width: 60px;
 
 
 }

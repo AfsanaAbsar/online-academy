@@ -1,0 +1,13 @@
+.latest-courses-card-area {
+    display: flex;
+    justify-content: center;
+}
+
+.latest-courses-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 700px;
+    text-align: center;
+    text-transform: uppercase;
+}
